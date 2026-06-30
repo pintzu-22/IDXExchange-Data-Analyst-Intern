@@ -3,8 +3,6 @@ import pandas as pd
 import re
 
 # Set the folder that contains all CSV files
-# If your folder name is "CSV", use Path("CSV")
-# If your folder name is "csv", use Path("csv")
 data_dir = Path("csv")
 
 # Set the output folder for combined files
@@ -82,7 +80,7 @@ def select_files_by_month(files, label):
 print("Current working folder:", Path.cwd())
 print("CSV folder exists:", data_dir.exists())
 
-# Stop the program if the CSV folder does not exist
+# Stop the program if the csv folder does not exist
 if not data_dir.exists():
     raise FileNotFoundError(
         "Cannot find csv folder. Make sure you run this code inside DA53_PROJECT "
