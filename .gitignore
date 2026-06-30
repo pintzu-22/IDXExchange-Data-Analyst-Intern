@@ -1,0 +1,14 @@
+# Ignore all raw CSV data folder
+csv/
+output/
+
+# Ignore these python scripts
+crmls_listed.py
+crmls_sold.py
+
+# Mac system files
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
