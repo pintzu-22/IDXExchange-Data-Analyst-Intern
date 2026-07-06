@@ -1,6 +1,7 @@
 # Ignore all raw CSV data folder
 csv/
 output/
+eda_reports/
 
 # Ignore these python scripts
 crmls_listed.py
