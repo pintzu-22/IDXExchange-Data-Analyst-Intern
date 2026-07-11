@@ -2,10 +2,13 @@
 csv/
 output/
 eda_reports/
+crmls_req/
 
 # Ignore these python scripts
 crmls_listed.py
 crmls_sold.py
+crmls_listed_original.py
+crmls_sold_original.py
 
 # Mac system files
 .DS_Store
