@@ -3,6 +3,7 @@ csv/
 output/
 eda_reports/
 crmls_req/
+cleaned_data/
 
 # Ignore these python scripts
 crmls_listed.py
